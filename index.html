@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | OB Montessori Center</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="nav-left">
+      <a href="#" class="logo-link">
+        <img src="image_3352fa.png" alt="OB Montessori Center Logo" class="logo">
+      </a>
+      <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Enroll</a>
+        <a href="#" class="active">Contact</a>
+      </nav>
+    </div>
+    <a href="#" class="btn-nav">Get Started</a>
+  </header>
+
+  <main class="main-container">
+    <div class="hero-header">
+      <h1>Get in Touch</h1>
+      <p>Have a question or want to learn more? Drop us a note below and we'll get back to you.</p>
+    </div>
+
+    <div class="content-grid">
+      <section class="glass-card form-section">
+        <h2>Send Us a Message</h2>
+        <form action="#" method="POST">
+          <div class="input-group">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" placeholder="Juan Dela Cruz" required>
+          </div>
+
+          <div class="input-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="juandelacruz@example.com" required>
+          </div>
+
+          <div class="input-group">
+            <label for="subject">Topic</label>
+            <select id="subject" required>
+              <option value="" disabled selected>Select a topic...</option>
+              <option value="admissions">Admissions & Enrollment</option>
+              <option value="academics">Academic Programs</option>
+              <option value="campus">Campus Visit</option>
+              <option value="other">General Inquiry</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Write your message here..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+      </section>
+
+      <aside class="glass-card info-section">
+        <div class="info-header">
+          <h2>Contact Info</h2>
+        </div>
+        <div class="info-body">
+          <div class="info-item">
+            <h3>Campus Address</h3>
+            <p>3 Eisenhower St., Bgy. Greenhills,<br>San Juan City, Metro Manila, Philippines</p>
+          </div>
+
+          <div class="info-item">
+            <h3>Phone</h3>
+            <p>+63 2 8722 9720 to 26</p>
+          </div>
+
+          <div class="info-item">
+            <h3>Email</h3>
+            <p>info@obmontessori.edu.ph</p>
+          </div>
+
+          <div class="info-item">
+            <h3>Office Hours</h3>
+            <p>Mon – Fri: 8:00 AM – 4:00 PM</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>2026 OB Montessori Center. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
